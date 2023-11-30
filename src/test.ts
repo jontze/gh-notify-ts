@@ -1,4 +1,4 @@
-import { githubNotifications } from "./notification";
+import { githubNotifications } from "./index";
 
 githubNotifications(process.env.GITHUB_TOKEN!, {
   unread: true,
